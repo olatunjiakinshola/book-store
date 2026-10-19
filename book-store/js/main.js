@@ -1,7 +1,7 @@
 // ===== Earning Supporters - Book Data =====
 // Replace the WhatsApp number below with the real one
 
-const WHATSAPP_NUMBER = "2348012345678"; // ← CHANGE THIS to the real number (no + sign)
+const WHATSAPP_NUMBER = "+12294070741"; // ← CHANGE THIS to the real number (no + sign)
 
 const books = [
     {
