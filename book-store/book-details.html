@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Details | Earning Supporters</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <a href="index.html" class="logo">
+            <div class="logo-icon">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                </svg>
+            </div>
+            <div class="logo-text">
+                <h1>Earning Supporters</h1>
+                <span>Support • Earn • Grow</span>
+            </div>
+        </a>
+        <div class="header-right">
+            <div class="notification">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2zm6-6v-5c0-3.07-1.63-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.64 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2z"/>
+                </svg>
+                <span class="badge">1</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Book Details -->
+    <div class="details-container">
+        <a href="index.html" class="back-link">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
+            </svg>
+            Back to Books
+        </a>
+
+        <div class="details-card" id="details-content">
+            <div>
+                <img id="book-cover" src="" alt="Book Cover" class="details-cover">
+            </div>
+            <div class="details-content">
+                <h1 id="book-title">Loading...</h1>
+                <p class="author" id="book-author"></p>
+                <p class="price" id="book-price"></p>
+
+                <div class="lock-notice">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zM9 6c0-1.66 1.34-3 3-3s3 1.34 3 3v2H9V6zm9 14H6V10h12v10zm-6-3c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z"/>
+                    </svg>
+                    <p>
+                        <strong>Full access requires payment.</strong><br>
+                        You need to complete payment to download or unlock the complete book / digital document. Click the button below to contact the Admin on WhatsApp.
+                    </p>
+                </div>
+
+                <p class="description" id="book-description"></p>
+
+                <div class="details-actions">
+                    <a id="buy-btn" href="#" class="btn btn-primary" target="_blank" rel="noopener">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0012.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 012.41 5.83c0 4.54-3.7 8.23-8.24 8.23-1.48 0-2.93-.39-4.19-1.15l-.3-.17-3.12.82.83-3.04-.2-.32a8.188 8.188 0 01-1.26-4.38c.01-4.54 3.7-8.24 8.25-8.24M8.53 7.33c-.16 0-.43.06-.66.31-.22.25-.87.86-.87 2.07 0 1.22.89 2.39 1 2.56.12.17 1.76 2.67 4.25 3.73.59.27 1.05.42 1.41.53.59.19 1.13.16 1.56.1.48-.07 1.46-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.07-.1-.25-.16-.52-.27-.27-.14-1.62-.8-1.87-.89-.25-.08-.43-.12-.62.13-.19.25-.71.89-.87 1.07-.16.19-.32.2-.59.07-.27-.14-1.15-.42-2.19-1.35-.81-.72-1.36-1.61-1.52-1.88-.16-.27-.02-.42.12-.56.13-.12.27-.32.41-.48.14-.16.19-.27.28-.45.1-.17.05-.33-.02-.46-.08-.13-.62-1.49-.84-2.04-.22-.54-.45-.46-.62-.47-.16 0-.34-.02-.52-.02z"/>
+                        </svg>
+                        Buy / Contact Admin on WhatsApp
+                    </a>
+                    <a href="index.html" class="btn btn-outline">
+                        Back to Store
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2026 Earning Supporters. All rights reserved.</p>
+        <p>Digital books & documents • Secure access after payment</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
